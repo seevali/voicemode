@@ -20,7 +20,7 @@ Natural voice conversations for AI assistants. VoiceMode brings human-like voice
 - **⚡ Real-time** - low-latency voice interactions with automatic transport selection
 - **🔧 MCP Integration** - seamless with Claude Code (and other MCP clients)
 - **🎯 Silence detection** - automatically stops recording when you stop speaking (no more waiting!)
-- **🔄 Multiple transports** - local microphone or LiveKit room-based communication (optional)  
+- **🎤 Local microphone** - direct audio capture for voice interactions  
 
 ## 🎯 Simple Requirements
 
@@ -71,8 +71,6 @@ The `converse` function makes voice interactions natural - it automatically wait
 - Python 3.10-3.14
 - [Astral UV](https://github.com/astral-sh/uv) - Package manager (install with `curl -LsSf https://astral.sh/uv/install.sh | sh`)
 - OpenAI API Key (or compatible service)
-
-> **Note on LiveKit:** LiveKit integration is optional and requires Python 3.10-3.13 (Python 3.14 support pending upstream dependencies). Install with: `uv tool install voice-mode[livekit]`. See [LiveKit Integration Guide](docs/guides/livekit-setup.md) for details.
 
 #### System Dependencies
 
@@ -253,7 +251,6 @@ Audio files are saved to: `~/.voicemode/audio/YYYY/MM/` with timestamps in the f
 
 - **[Whisper.cpp Setup](docs/guides/whisper-setup.md)** - Local speech-to-text configuration
 - **[Kokoro Setup](docs/guides/kokoro-setup.md)** - Local text-to-speech configuration
-- **[LiveKit Integration](docs/guides/livekit-setup.md)** - Real-time voice communication
 
 ## Links
 

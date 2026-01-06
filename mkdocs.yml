@@ -94,7 +94,6 @@ nav:
   - Local Services:
     - Whisper.cpp: whisper.cpp.md
     - Kokoro TTS: kokoro.md
-    - LiveKit: livekit/README.md
   - Development:
     - Local Development: local-development-uvx.md
     - Migration Guide: migration-guide.md
